@@ -3,7 +3,7 @@
   "id": "modid",
   "version": "${version}",
   "name": "Create Recycling",
-  "description": "Recycle everything so nothing goes to waste!",
+  "description": "Automatically detects recipes and creates a datapack for a recycling recipe using the Create crushing wheel.",
   "authors": [
     "Me!"
   ],
