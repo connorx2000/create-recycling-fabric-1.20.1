@@ -29,10 +29,13 @@ jobs:
       - name: Validate Gradle Wrapper Integrity
         uses: gradle/wrapper-validation-action@v2
 
-      - name: build
+      - name: Make Gradle Wrapper Executable
+        run: chmod +x ./gradlew
+
+      - name: Build
         run: ./gradlew build
 
-      - name: capture build artifacts
+      - name: Capture build artifacts
         uses: actions/upload-artifact@v4
         with:
           name: Artifacts
