@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "createrecycle",
   "version": "${version}",
   "name": "Create Recycling",
   "description": "Automatically detects recipes and creates a datapack for a recycling recipe using the Create crushing wheel.",
